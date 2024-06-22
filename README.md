@@ -1,2 +1,2 @@
-# adblock
-Ad blocking javascript for various websites (snippets)
+# Ad Block
+Ad blocking javascript for various websites (snippets).
