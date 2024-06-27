@@ -3,6 +3,7 @@ const sidebar_sticky_ads = document.getElementsByClassName("sidebar-tall-ad stic
 const footer_ads = document.getElementsByClassName("fs-sticky-footer");
 const sponsor_ads = document.getElementsByClassName("sponsor-ad");
 const passage_bottom_ads = document.getElementsByClassName("passage-bottom-ad");
+const popup_ads = document.getElementsByClassName("bg-popup-root");
 
 for (let i = 0; i < sidebar_ads.length; ++i) {
     sidebar_ads[i].remove();
@@ -22,6 +23,10 @@ for (let i = 0; i < sponsor_ads.length; ++i) {
 
 for (let i = 0; i < passage_bottom_ads.length; ++i) {
     passage_bottom_ads[i].remove();
+}
+
+for (let i = 0; i < popup_ads.length; ++i) {
+    popup_ads[i].remove();
 }
 
 console.log("Removed Ads");
