@@ -7,6 +7,7 @@ const popup_ads = document.getElementsByClassName("bg-popup-root");
 const wrapper_ads = document.getElementsByClassName("wrapper");
 const pagebottomads = document.getElementsByClassName("page-bottom-ad");
 const serpsidemads = document.getElementsByClassName("serp-filters-ads");
+const primisslateads = document.getElementsByClassName("primisslate");
 
 for (let i = 0; i < sidebar_ads.length; ++i) {
     sidebar_ads[i].remove();
@@ -42,6 +43,10 @@ for (let i = 0; i < pagebottomads.length; ++i) {
 
 for (let i = 0; i < serpsidemads.length; ++i) {
     serpsidemads[i].remove();
+}
+
+for (let i = 0; i < primisslateads.length; ++i) {
+    primisslateads[i].remove();
 }
 
 console.log("Removed Ads");
